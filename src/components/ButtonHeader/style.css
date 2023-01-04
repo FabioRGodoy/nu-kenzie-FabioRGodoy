@@ -1,0 +1,17 @@
+.btnBack {
+  width: 64px;
+  height: 40px;
+  background: var(--color-grey-2);
+  border: 1.4px solid var(--color-grey-2);
+  border-radius: 8px;
+  cursor: pointer;
+  color: var(--color-grey-3);
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 19px;
+}
+
+.btnBack:hover {
+  background-color: var(--color-primary);
+  color: var(--color-grey-2);
+}

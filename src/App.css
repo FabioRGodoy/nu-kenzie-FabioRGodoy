@@ -1,0 +1,143 @@
+.App {
+  width: 100%;
+  height: 100vh;
+}
+
+.background {
+  background-color: var(--color-grey-4);
+  height: 120vh;
+  width: 100vw;
+}
+
+.containerHome {
+  width: 90%;
+  height: 100%;
+  margin: 0 auto;
+  color: white;
+  display: flex;
+  flex-direction: column-reverse;
+  background-color: var(--color-grey-4);
+}
+
+.contentContainer {
+  margin-top: 40px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.imgLogo {
+  width: 125px;
+  height: 20px;
+}
+
+.paragraphHome {
+  font-weight: 800;
+  font-size: 38px;
+  line-height: 48px;
+  color: var(--color-grey-1);
+}
+
+.spanSmall {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: var(--color-grey-1);
+}
+
+.containerImageHome {
+  margin-top: 20px;
+}
+
+.mainImageHome {
+  width: 280px;
+}
+
+.containerFinancialSummary {
+  height: max-content;
+  border: 1px solid var(--color-grey-2);
+  padding: 10px;
+  backgroud-color: red;
+}
+
+main {
+  width: 90%;
+  height: 100%;
+  margin: 30px auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.containerFormTotal {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.containerFinancialSummary {
+  height: max-content;
+  border: 1px solid var(--color-grey-2);
+  padding: 10px;
+}
+
+.containerFiltro {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.containerBtnFiltro {
+  display: flex;
+  gap: 15px;
+}
+
+.btnFilter {
+  width: 64px;
+  height: 35px;
+  background: var(--color-grey-2);
+  border: 1.4px solid var(--color-grey-2);
+  border-radius: 8px;
+  cursor: pointer;
+  color: var(--color-grey-3);
+}
+
+.btnFilter:hover {
+  background-color: var(--color-primary);
+  color: var(--color-grey-2);
+}
+
+@media (min-width: 820px) {
+  .background {
+    height: 100vh;
+    padding-top: 40px;
+  }
+
+  main {
+    width: 80%;
+    gap: 0px;
+    flex-direction: row;
+  }
+
+  .containerHome {
+    flex-direction: row;
+    gap: 10%;
+  }
+
+  .contentContainer {
+    margin-top: 150px;
+  }
+
+  .mainImageHome {
+    width: 460px;
+  }
+
+  .containerFormTotal {
+    width: 40%;
+  }
+
+  .containerFinancialSummary {
+    width: 50%;
+  }
+}

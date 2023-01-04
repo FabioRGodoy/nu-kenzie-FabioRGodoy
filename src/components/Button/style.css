@@ -1,0 +1,14 @@
+.btnIniciar {
+  width: 241px;
+  height: 48px;
+  background: var(--color-primary);
+  border-radius: 8px;
+  border: 2px solid var(--color-primary);
+  color: var(--color-grey-1);
+  cursor: pointer;
+  margin-bottom: 20px;
+}
+
+.btnIniciar:hover {
+  opacity: 85%;
+}
